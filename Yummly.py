@@ -8,16 +8,9 @@ class UseageOptions:
     def options(self):
         '''Display usage options to user on invalid input or when -h is called.'''
         print('\nUsage Options\n'
-            #+'- Get top trends of a geographical location:\n'
-            #+'\t> python geotweets.py -trends\n'
-            #+'\t> python geotweets.py -trends [city | country]\n\n'
-            #+'- Fetch Where On Earth ID (WOEID) of a geographical location:\n'
-            #+'\t> python geotweets.py -woeid\n'
-            #+'\t> python geotweets.py -woeid [city | country]\n\n'
-            #+'- Enter command line interface of the program:\n'
-            #+'\t> python geotweets.py'
-            #+'\n\nNote: Locations that have more than one word should be put in quotes. Example:\n'
-            #+'\t> python geotweet.py -trends \'Los Angeles\'')
+            #+'- INSERT OPTIONS HERE\n'
+            #+'\t> INSERT OPTIONS HERE -trends\n'
+
         )
 
 class FoodSearch:
