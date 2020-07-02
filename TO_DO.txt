@@ -1,0 +1,30 @@
+# TO-DO
+    # Set objective and functionality
+    # User input (case insensitive)
+    # Input is read by API and results are returned
+    # Store used/liked recipes
+    # Storage and manipulation (add and delete) of ingredients or input of all ingredients a user has (?)
+
+## Objective 
+    # CookMe_v2 uses the Yummly API to return recipes that could be made with ingredients the user already has.
+
+## Functionality
+    # Run the program with python main.py
+    # User will have the options to:
+        # search recipes based on ingredients
+        # search recipes based on inegrients with food restrictions
+        # search recipes based on preset ingredients (w/ or w/o food restrictions)
+
+## Security
+    # input validation 
+    # hidden/hashed API key
+    # exception handling
+    # raised error (?)
+
+## Further desired development
+    # Possible kivy or beeware usage 
+
+## Files
+    # auth.py - hashed file with API access
+    # main.py - main program
+    # Yummly.py - API functionality and classes
